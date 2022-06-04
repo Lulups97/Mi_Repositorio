@@ -1,0 +1,330 @@
+/*General*/
+/* MOBILE - 320 PX */
+
+* {
+    margin:0;
+    padding: 0px;
+}
+
+
+body {
+    background-color:rgb(58, 53, 53);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+h1 {
+    color:rgb(255, 204, 235);
+    padding: 20px;
+   
+    text-align: center;
+}
+
+p {
+    color:rgb(255, 204, 235);
+    padding: 20px;
+    margin: 10px; 
+    font-size: 13px;
+    text-align: center;
+    background-color:rgb(0, 0, 0)
+}
+
+div {
+    color:rgb(236, 162, 236);
+    padding: 20px;
+    transition: height 2s;
+}
+
+h2 {
+    color:rgb(255, 204, 235);
+    padding: 20px;
+    text-align: center;
+}
+
+ul li {
+    color:rgb(220, 43, 226);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-color:lavenderblush ;
+    background-blend-mode:difference;
+    width: 200px; 
+    height: 500px;
+    display: inline
+}
+
+textarea {
+    margin:10px;
+    padding: 60px;
+      
+}
+
+div p {
+    border-radius: 1ch;
+    border-color: pink;
+    border-width: thin;
+    border-style: groove;
+    
+}
+
+nav {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap:wrap
+} 
+
+.center {
+    text-align: center;
+}
+
+
+/*Contacto*/
+.bodyContacto{
+    background-image: url("imágenes:videos/contacto@100x-100.jpg");
+    background-size: contain;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+
+fieldset {
+    width: 500px; 
+    height: 350px;  
+}
+
+
+input {
+    transform: skew(20deg,10deg);
+    height: 20px; 
+    display:block; 
+    align-items: left;
+}
+
+label {
+    color:rgb(202, 35, 138);
+    padding: 20px;
+    display:block;
+}
+
+select {
+    color:rgb(62, 123, 236);
+    padding: 10px;
+
+}
+    
+    
+/*Index*/ 
+.bodyIndex {
+    background-image: url("imágenes/videos/indexx.jpg");
+    background-size: contain;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.banner {
+    height: 630px;
+   } 
+
+.colorVioleta {
+    color:rgb(220, 43, 226);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align:center;
+    
+}
+
+.colorGris {
+    margin:45px;
+    color :rgb(17, 2, 17); 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+
+}
+
+.white {
+    color:rgb(250, 209, 250);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    font-size: 10px;
+    background-color: rgb(8, 8, 8);
+    
+}
+
+.párrafoIntro {
+    margin:45px;
+    color:rgb(250, 209, 250);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+}
+
+.textoFooter {
+    color:rgb(25, 19, 26);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:10px;
+    text-align:center;
+}
+
+/*Servicio*/
+.bodyServicios{
+    background-image: url("imágenes/videos/servicios0.2.jpg");
+    background-size: contain;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+table {
+   align-items: center;
+   display:flex;
+   align-items: center;
+
+
+}
+
+th {
+    margin:10px;
+    padding: 10px;
+    color:rgb(236, 162, 236);  
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+td {
+    margin:10px;
+    padding:10px;
+    color:rgb(236, 162, 236);  
+    text-align: center;
+    border:pink;
+    border-radius: 1ch;
+    border-width: thin;
+    border-style: dotted;
+    background-color: black;
+}
+
+
+/*News*/
+.bodyNews{
+    background-image: url("imágenes/videos/gifnews.gif");
+    background-size: contain;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.boton {
+    transform: skew(20deg,10deg);
+    background-color:rgb(114, 102, 114); 
+    background-size: 12px ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(250, 209, 250);
+    border:inset;
+    text-align:center;
+
+}
+
+
+/*Proyectos*/
+.bodyProyectos{
+    background-image: url("imágenes:videos/proyectos.jpg");
+    background-size: contain;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+
+.image {
+    transform: scale(2,1);
+    width: 500px; 
+    height: 500px;
+}  
+
+.image2 {
+    transform: scale(2,1);
+    margin: 20px 0px 10px 0px; 
+} 
+
+.image3 {
+    transform: scale(2,1);
+    width: 150px; 
+    height: 150px;
+} 
+
+.relative {
+         position: relative;
+         top: 40px;
+         left:40px;
+}
+
+.flexbox {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+ 
+}
+
+
+/* Nosotros */
+.bodyNosotros{
+    background-image: url("imágenes:videos/nosotros0.1.jpg");
+    background-size:contain;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+
+.image4 {
+    transform: scale(2,1) ;
+    width: 50px; 
+    height: 60px;
+    border-image: 10ch;
+   } 
+
+.backgroundPleno {
+    background-image: linear-gradient(to left, pink,grey);
+    width: 100px; 
+    height: 500px;
+    opacity: 30%;
+   } 
+
+.gridColumns {
+    display:grid;
+    grid-template-columns: 10px 10px ;
+    grid-template-rows:repeat (5 20px) ;
+    
+
+}
+
+/* 1024 PX */
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1024px) {
+
+    /* NAV */
+
+    nav ul li{
+        display: inline-block;
+        margin: 5px 22px;
+    }
+
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    /* NAV */
+
+    nav ul li{
+        display: inline-block;
+        margin: 5px 22px;
+        font-size: 2em;
+    }
+
+
+  
+}
