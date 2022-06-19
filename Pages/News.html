@@ -8,36 +8,47 @@
 	<title>News</title>
 
 	 <!-- Bootstrap core CSS -->
-	 <link href="css/bootstrap.min.css" rel="stylesheet">
-	 <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	 <link href="../css/bootstrap.min.css" rel="stylesheet">
+	 <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="estilos.css" />
+	<link rel="stylesheet" href="../css/Estilos.css" />
+
+	<!-- FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" >
 </head>
 
-<body class="bodyNews">
+<body class="container-fluid" class="bodyNews">
 	<header>
-		<nav>
+		<nav class="nav nav-pills nav-fill" class="colorVioleta">
 			<ul>
-				<li><a class="colorVioleta" href="index.html">Inicio</a>
+				<li><img src ="../imágenes/videos/Logo.png" class="img-thumbnail"></li>
+				<li><a class="colorVioleta" class="nav-item nav-link"  href="../index.html">Inicio</a>
 				</li>
-				<li><a class="colorVioleta" href="Servicio.html">Servicio</a>
+				<li><a class="colorVioleta" class="nav-item nav-link" href="../Pages/Servicio.html">Servicios</a>
 				</li>
-				<li><a class="colorVioleta" href="Nosotros.html">Nosotros</a>
+				<li><a class="colorVioleta" class="nav-item nav-link"  href="../Pages/Nosotros.html">Nosotros</a>
 				</li>
-				<li><a class="colorVioleta" href="Proyectos.html">Proyectos</a>
+				<li><a class="colorVioleta" class="nav-item nav-link" href="../Pages/Proyectos.html">Proyectos</a>
 				</li>
-				<li><a class="colorVioleta" href="News.html">News</a>
+				<li><a class="nav-item nav-link active"  href="../Pages/News.html">News</a>
 				</li>
-				<li><a class="colorVioleta" href="Contacto.html">Contacto</a>
+				<li><a class="colorVioleta" class="nav-item nav-link"  href="../Pages/Contacto.html">Contacto</a>
 				</li>
+				<li>
+					<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				  </form>
+				</li>  
 			</ul>
 		</nav>
       </header>
     <footer> 
 	<p>No te pierdas las novedades más interesantes sobre diseño, redes y networking a nivel internacional</p>
-      <div class="boton">Suscribite Hoy</div>
-      <img src="imágenes/videos/deco1.gif" alt="gif">
+	<button type="button" class="btn btn-secondary btn-lg btn-block">Sucribete Ahora</button>
+      <img src="../imágenes/videos/deco1.gif" alt="gif">
 	  </footer>
 </body>
 

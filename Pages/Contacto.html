@@ -8,41 +8,49 @@
 	<title>Contacto</title>
 
 	 <!-- Bootstrap core CSS -->
-	 <link href="css/bootstrap.min.css" rel="stylesheet">
-	 <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-
-	<!-- CSS -->
-	<link rel="stylesheet" href="estilos.css" />
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+ 
+	 <!-- CSS -->
+	<link rel="stylesheet" href="../css/Estilos.css" />
 
 	<!-- FONTS -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" >
 </head>
 
-<body class="bodyContacto">
+<body class="container-fluid" class="ContactoBody">
   
 	<header>
-		<nav>
+		<nav class="nav nav-pills nav-fill">
 			<ul>
-				<li><a class="colorVioleta" href="index.html">Inicio</a>
+				<li><img src ="../imágenes/videos/Logo.png" class="img-thumbnail"></li>
+
+				<li><a class="colorVioleta" href="../index.html">Inicio</a>
 				</li>
-				<li><a class="colorVioleta" href="Servicio.html">Servicio</a>
+				<li><a class="colorVioleta" href="../Pages/Servicio.html">Servicios</a>
 				</li>
-				<li><a class="colorVioleta" href="Nosotros.html">Nosotros</a>
+				<li><a class="colorVioleta" href="../Pages/Nosotros.html">Nosotros</a>
 				</li>
-				<li><a class="colorVioleta" href="Proyectos.html">Proyectos</a>
+				<li><a class="colorVioleta" href="../Pages/Proyectos.html">Proyectos</a>
 				</li>
-				<li><a class="colorVioleta" href="News.html">News</a>
+				<li><a class="colorVioleta" href="../Pages/News.html">News</a>
 				</li>
-				<li><a class="colorVioleta" href="Contacto.html">Contacto</a>
+				<li><a class="nav-item nav-link active" href="../Pages/Contacto.html">Contacto</a>
 				</li>
+				<li>
+					<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				  </form>
+				</li>  
 			</ul>
     </nav>  
   </header>
   
   <h1>CONTACTANOS</h1>
-  <img src="imágenes:videos/deco2.gif" alt="gif">
-	<img src="imágenes:videos/contacto.png" alt="contacto" class="image" class="ima">
-	<form action="" class="gridContacto" class="form-group">
+  <img src="../imágenes/videos/deco2.gif" alt="gif">
+	<img src="../imágenes/videos/contacto.png" alt="contacto" class="image" class="ima">
+	<form action="" class="gridContacto">
 		<fieldset class="info">
 			<legend>Información Personal</legend>
 			<label for="nombre">Nombre</label>
@@ -77,7 +85,7 @@
 			<label>Diseño de Identidad Visual</label>
 			<input type="checkbox" name="diseñoDeIdentidadVisual" />
     </fieldset>
-    <div  class="form">
+    <div>
 		<h2>¡Dejanos un mensaje!</h2> 
 		<textarea rows=4 cols=15 placeholder="Me gustaría solicitar el servicio de redes"></textarea>
 		<input type="submit" value="Enviar" />
@@ -87,9 +95,7 @@
 
   <div class="alert alert-success" role="alert">
 	<h4 class="alert-heading">Well done!</h4>
-	<p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-	<hr>
-	<p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

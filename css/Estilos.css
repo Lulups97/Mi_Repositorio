@@ -8,7 +8,7 @@
 
 
 body {
-    background-color:rgb(58, 53, 53);
+    background-image: radial-gradient(circle,#18295d, #121d3c, #0d101c);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -26,7 +26,8 @@ p {
     margin: 10px; 
     font-size: 13px;
     text-align: center;
-    background-color:rgb(0, 0, 0)
+    background-color:rgb(252, 252, 252) transparent;
+    
 }
 
 div {
@@ -42,13 +43,12 @@ h2 {
 }
 
 ul li {
-    color:rgb(220, 43, 226);
+    color:rgb(226, 138, 255);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-    background-color:lavenderblush ;
     background-blend-mode:difference;
     width: 200px; 
-    height: 500px;
+    height: 100px;
     display: inline
 }
 
@@ -75,46 +75,18 @@ nav {
 } 
 
 .center {
-    text-align: center;
+    text-align:justify;
 }
 
-
-/*Contacto*/
-.bodyContacto{
-    background-image: url("imágenes:videos/contacto@100x-100.jpg");
-    background-size: contain;
-    height: 100vh;
-    padding:0;
-    margin:0;
-}
+.ima
+div {
+    width: 60%;
+    margin: auto;
+    display: block;
+  }
+ 
 
 
-fieldset {
-    width: 500px; 
-    height: 350px;  
-}
-
-
-input {
-    transform: skew(20deg,10deg);
-    height: 20px; 
-    display:block; 
-    align-items: left;
-}
-
-label {
-    color:rgb(202, 35, 138);
-    padding: 20px;
-    display:block;
-}
-
-select {
-    color:rgb(62, 123, 236);
-    padding: 10px;
-
-}
-    
-    
 /*Index*/ 
 .bodyIndex {
     background-image: url("imágenes/videos/indexx.jpg");
@@ -129,15 +101,15 @@ select {
    } 
 
 .colorVioleta {
-    color:rgb(220, 43, 226);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(226, 138, 255);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align:center;
     
 }
 
 .colorGris {
     margin:45px;
-    color :rgb(17, 2, 17); 
+    color :rgb(83, 61, 250); 
     font-family: Arial, Helvetica, sans-serif;
     text-align:center;
 
@@ -160,7 +132,7 @@ select {
 }
 
 .textoFooter {
-    color:rgb(25, 19, 26);
+    color:rgb(184, 184, 184);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size:10px;
     text-align:center;
@@ -279,10 +251,9 @@ td {
 
 
 .image4 {
-    transform: scale(2,1) ;
-    width: 50px; 
-    height: 60px;
-    border-image: 10ch;
+ width: 100%;
+ height: 100%;
+ margin: 50% 60% 50% 40%;
    } 
 
 .backgroundPleno {
@@ -321,10 +292,48 @@ td {
 
     nav ul li{
         display: inline-block;
-        margin: 5px 22px;
-        font-size: 2em;
+        margin: 1px 1px;
+        font-size: 1.5em;
+        color:rgb(226, 138, 255);
+
     }
 
 
   
 }
+
+/*Contacto*/
+.ContactoBody {
+    background-image: linear-gradient(to right top, #0d101c, #121d3c, #18295d, #243580, #383fa3);
+    background-image: url("imágenes:videos/contacto@100x-100.jpg");
+    background-size: contain;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+fieldset {
+    width: 500px; 
+    height: 350px;  
+}
+
+input {
+    transform: skew(20deg,10deg);
+    height: 20px; 
+    display:block; 
+    align-items: left;
+}
+
+label {
+    color:rgb(202, 35, 138);
+    padding: 20px;
+    display:block;
+}
+
+select {
+    color:rgb(62, 123, 236);
+    padding: 10px;
+
+}
+    
+    

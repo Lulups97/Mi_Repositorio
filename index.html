@@ -1,7 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-      <head> 
-<head>
+<html lang="en"> 
+
       <head> 
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +9,10 @@
             <title> TANTRUM STUDIO</title>
 
             <!-- Bootstrap core CSS -->
-            <link href="css/bootstrap.min.css" rel="stylesheet">
-            <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
             <!-- CSS -->
-            <link rel="stylesheet" href="estilos.css"/>
+            <link rel="stylesheet" href="./css/Estilos.css"/>
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
             <!-- FONTS -->
@@ -22,29 +20,33 @@
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" >
       </head>
 
-      <body class="bodyIndex"> 
+      <body class="container-fluid" class="bodyIndex"> 
             
         <header>
-            <nav aria-label="breadcrumb">
-            <ul class="breadcrumb">
-                <li class="breadcrumb-item"><a class="colorVioleta" href="index.html">Inicio</a></li>
-                <li class="breadcrumb-item"><a class="colorVioleta" href="Servicio.html">Servicio</a></li>
-                <li class="breadcrumb-item"><a class="colorVioleta" href="Nosotros.html">Nosotros</a></li>
-                <li class="breadcrumb-item"><a class="colorVioleta" href="Proyectos.html">Proyectos</a></li>
-                <li class="breadcrumb-item"><a class="colorVioleta" href="News.html">News</a></li>
-                <li class="breadcrumb-item"><a class="colorVioleta" href="Contacto.html">Contacto</a></li>
+            <nav class="nav nav-pills nav-fill">
+            <ul>
+              <li><img src ="imágenes/videos/Logo.png" class="img-thumbnail"></li>
+                <li><a class="nav-item nav-link active" href="../Mi_Repositorio/index.html">Inicio</a></li>
+                <li><a class="colorVioleta" href="../Mi_Repositorio/Pages/Servicio.html">Servicios</a></li>
+                <li><a class="colorVioleta" href="../Mi_Repositorio/Pages/Nosotros.html">Nosotros</a></li>
+                <li><a class="colorVioleta" href="../Mi_Repositorio/Pages/Proyectos.html">Proyectos</a></li>
+                <li><a class="colorVioleta" href="../Mi_Repositorio/Pages/News.html">News</a></li>
+                <li><a class="colorVioleta" href="../Mi_Repositorio/Pages/Contacto.html">Contacto</a></li>
+                <li>
+                  <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </li>  
             </ul>   
             </nav>
         </header>
         
         <main>
-            <div class="alert alert-primary" role="alert">
-                  This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
-                </div>  
-            <h1 class="colorVioleta" class="display-4">TANTRUM</h1> 
-            <img src ="imágenes/videos/banner.png" alt="banner" class="banner" class="img-fluid" alt="Responsive image">
-            <small class="text-muted"> <h2 class="colorGris">Inquietos| Impredescibles| Innovadores</h2> </small>
-                <h3 class=boton>Suscribíte Hoy</h3>
+            <div class="ima"> <img src ="../Mi_Repositorio/imágenes/videos/Recurso 2.png"></div>
+            <img src ="imágenes/videos/banner.png" alt="banner" class="img-fluid" alt="Responsive image" class="banner">
+            <small class="text-muted"> <h2 class="colorGris">Inquietos | Impredescibles | Innovadores</h2> </small>
+            <button type="button" class="btn btn-primary btn-lg btn-block">Suscríbete Hoy</button>
                 <p class=párrafoIntro>Tantrum es un estudio de diseño que busca dejar una impronta positiva dentro
                 de la identidad de cada uno de sus clientes. Trabaja de forma personalizada atendiendo
                 a las necesidades particulares de los mismos. Busca aprender de cada una de las disciplinas
@@ -56,13 +58,13 @@
         <footer>
             <div class="textoFooter" ><u>Preguntas Frecuentes Política de Privacidad Blog Ayuda Conocé Más </u></div>
                <p class="white"><em>Copyright © 2021 Tantrum.Todos los derechos reservados. Seguínos en las redes</em></p>
-               <div> 
+               <div class="center"> 
                 <a href="https://www.facebook.com" class="icon facebook"><span>Facebook</span></a>
                 <a href="https://www.twitter.com" class="icon twitter"><span>Twitter</span></a>
                 <a href="https://www.github.com" class="icon github"><span>Github</span></a>
                 <a href="http://www.dribble.com" class="icon dribble"><span>Dribble</span></a>
                 <a href="https://pinterest.com" class="icon pinterest"><span>Pinterest</span></a>
-                </div><a target='_blank' href='www.htmlbestcodes.com' style='font-size: 8pt; text-decoration: none'>Html Best Codes</a>
+                </div>
                </footer>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
