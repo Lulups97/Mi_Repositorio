@@ -8,57 +8,78 @@
 	<title>Nosotros</title>
 
 	<!-- Bootstrap core CSS -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
 	<!-- CSS -->
-	<link rel="stylesheet" href="estilos.css" />
+	<link rel="stylesheet" href="../css/Estilos.css" />
+
+	<!-- FONTS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" >
 </head>
 
-<body class="bodyNosotros">
+<body class="container-fluid" class="bodyNosotros">
 	<header>
-		<nav>
+		<nav class="nav nav-pills nav-fill">
 			<ul>
-				<li><a class="colorVioleta" href="index.html">Inicio</a>
+				<li><img src ="../imágenes/videos/Logo.png" class="img-thumbnail"></li>
+
+				<li><a class="colorVioleta" href="../index.html">Inicio</a>
 				</li>
-				<li><a class="colorVioleta" href="Servicio.html">Servicio</a>
+				<li><a class="colorVioleta" href="../Pages/Servicio.html">Servicios</a>
 				</li>
-				<li><a class="colorVioleta" href="Nosotros.html">Nosotros</a>
+				<li><a class="nav-item nav-link active" href="../Pages/Nosotros.html">Nosotros</a>
 				</li>
-				<li><a class="colorVioleta" href="Proyectos.html">Proyectos</a>
+				<li><a class="colorVioleta" href="../Pages/Proyectos.html">Proyectos</a>
 				</li>
-				<li><a class="colorVioleta" href="News.html">News</a>
+				<li><a class="colorVioleta" href="../Pages/News.html">News</a>
 				</li>
-				<li><a class="colorVioleta" href="Contacto.html">Contacto</a>
+				<li><a class="colorVioleta" href="../Pages/Contacto.html">Contacto</a>
 				</li>
+				<li>
+					<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				  </form>
+				</li>  
 			</ul>
 		</nav>
       </header>
-    <main class="container"> 
+    <main> 
 	<h1>NOSOTROS</h1> 
 	<h2>Tu marca está en buenas manos</h2>
 	<P>Nuestro equipo de profesionales esta listo para llevar tu emprendimiento hacia el éxito asegurado</P>
-	<ul class="center" class="gridColumns">
-		<li>
-               <img src="imágenes/videos/camila.png" alt="camila" class="image4" class="img-thumbnail">   
-               <a>Camila</a>
-            </li>
-		<li>
-               <img src="imágenes/videos/sasha.png" alt="sasha" class="image4" class="img-thumbnail">    
-               <a>Sasha</a>
-            <li>
-               <img src="imágenes/videos/esteban.png" alt="esteban" class="image4" class="img-thumbnail">
-               <a>Esteban</a>
-            </li>
-            <li>
-                <img src="imágenes/videos/ludmila.png" alt="ludmila" class="image4" class="img-thumbnail">  
-                <a>Ludmila</a>
-            </li>
-               <li>
-                 <img src="imágenes/videos/lucila" alt="lucila" class="image4" class="img-thumbnail">  
-                 <a>Lucila</a>
-            </li>
-      </ul>
+
+	  <ul class="container-fluid">
+		<li class="media">
+		  <img class="image4" src="../imágenes/videos/camila.png" alt="Camila">
+		  <div class="media-body">
+			<h5 class="image4">Camila</h5>
+			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla
+		  </div>
+		</li>
+		<li class="media my-4">
+		  <img class="image4" src="../imágenes/videos/sasha.png" alt="Sasha">
+		  <div class="media-body">
+			<h5 class="mt-0 mb-1">Sasha</h5>
+			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. 
+		  </div>
+		</li>
+		<li class="media">
+		  <img class="image4" src="../imágenes/videos/esteban.png" alt="Esteban">
+		  <div class="media-body">
+			<h5 class="mt-0 mb-1">Esteban</h5>
+			Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+		  </div>
+		</li>
+		<li class="media">
+			<img class="image4" src="../imágenes/videos/ludmila.png" alt="Ludmila">
+			<div class="media-body">
+			  <h5 class="mt-0 mb-1">Ludmila</h5>
+			  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
+			</div>
+		  </li>
+	  </ul>
 	 </main>
 	 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
